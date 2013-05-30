@@ -1,0 +1,17 @@
+{
+  "name": "prototipo-scroll-nav",
+  "version": "1.0.0",
+  "title": "Navegação entre as telas",
+  "homepage": "http://example.com",
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-sass": "~0.3.0",
+    "grunt-contrib-livereload": "~0.1.2",
+    "grunt-regarde": "~0.1.1",
+    "grunt-contrib-connect": "~0.3.0",
+    "grunt-contrib-imagemin": "~0.1.4",
+    "grunt-contrib-uglify": "~0.2.1",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-htmlmin": "~0.1.3"
+  }
+}

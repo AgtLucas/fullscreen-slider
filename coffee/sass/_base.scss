@@ -1,0 +1,28 @@
+$font-size: 16;
+
+*, *:after, *:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+.cf:before, .cf:after {
+    content: " ";
+    display: table;
+}
+.cf:after {
+    clear: both;
+}
+a {
+	text-decoration: none;
+	color: white;
+}
+@mixin content {
+    width: 60em;
+    max-width: 100%;
+    margin: 0 auto;
+}
