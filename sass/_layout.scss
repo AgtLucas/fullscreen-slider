@@ -5,3 +5,25 @@ body {
     margin: 0;
     overflow: visible;
 }
+header,
+footer {
+    position: fixed;
+    background-color: #000;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    z-index: 500;
+}
+header {
+    height: 70px;
+    top: 0;
+    margin-bottom: 20px;
+}
+footer {
+    left: 0;
+    bottom: 0;
+    height: 80px;
+}
+.content {
+    @include content;
+}
