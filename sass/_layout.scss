@@ -8,6 +8,7 @@ header,
 footer {
     position: fixed;
     background-color: #000;
+    color: #fff;
     width: 100%;
     margin: 0;
     padding: 0;
@@ -24,6 +25,8 @@ header {
     top: 20px;
 }
 .menu {
+    position: relative;
+    bottom: 10px;
     float: right;
 }
 .menu-links {
@@ -76,6 +79,45 @@ footer {
     left: 0;
     text-align: left;
 }
+.delta-content {
+    width: 30em;
+    float: left;
+    position: relative;
+    margin-top: 30%;
+    margin-bottom: 50%;
+    padding: 1.25em;
+    background-color: #000;
+    color: white;
+}
 .delta-page-current {
     z-index: 1000;
+}
+.delta-pages-fb .delta-page {
+    left: 100%;
+}
+.page-navigation {
+    position: absolute;
+    margin: 0 auto;
+    z-index: 1000;
+    top: 50%;
+    width: 100%;
+    a {
+        position: absolute;
+        display: block;
+        text-indent: -9999px;
+        width: 0;
+        height: 0;
+    }
+    a.prev {
+        left: 10px;
+        border-top: 35px solid transparent;
+        border-bottom: 35px solid transparent;
+        border-right: 35px solid tomato;
+    }
+    a.next {
+        right: 10px;
+        border-top: 35px solid transparent;
+        border-bottom: 35px solid transparent;
+        border-left: 35px solid tomato;
+    }
 }
