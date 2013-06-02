@@ -80,11 +80,11 @@ footer {
     text-align: left;
 }
 .delta-content {
-    width: 30em;
-    float: left;
     position: relative;
-    margin-top: 30%;
-    margin-bottom: 50%;
+    max-width: 100%;
+    width: 60em;
+    max-height: 400px;
+    margin-top: 250px;
     padding: 1.25em;
     background-color: #000;
     color: white;
@@ -102,6 +102,7 @@ footer {
     margin-top: -50px;
     margin-left: 0;
     z-index: 2000;
+    width: 100%;
     a {
         position: absolute;
         display: block;
@@ -113,12 +114,12 @@ footer {
         left: 10px;
         border-top: 35px solid transparent;
         border-bottom: 35px solid transparent;
-        border-right: 35px solid tomato;
+        border-right: 35px solid red;
     }
     .next {
         right: 10px;
         border-top: 35px solid transparent;
         border-bottom: 35px solid transparent;
-        border-left: 35px solid tomato;
+        border-left: 35px solid red;
     }
 }
