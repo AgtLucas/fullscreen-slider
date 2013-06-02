@@ -19,6 +19,20 @@ header {
     left: 0;
     margin-bottom: 20px;
 }
+.logo {
+    position: relative;
+    top: 20px;
+}
+.menu {
+    float: right;
+}
+.menu-links {
+    font-size: 12px;
+    li {
+        display: inline;
+        margin-left: 20px;
+    }
+}
 footer {
     height: 80px;
     bottom: 0;
@@ -31,11 +45,6 @@ footer {
 .delta-pages {
     position: relative;
     list-style: none;
-    width: 100%;
-    min-width: 520px;
-    height: 80%;
-    margin: 30px auto;
-    padding: 0;
     -webkit-transition: background-position 1.4s ease-in-out 0.3s;
     -moz-transition: background-position 1.4s ease-in-out 0.3s;
     -o-transition: background-position 1.4s ease-in-out 0.3s;
@@ -43,10 +52,21 @@ footer {
     transition: background-position 1.4s ease-in-out 0.3s;
 }
 .delta-img {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    display: block
+    position: fixed;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        min-width: 50%;
+        min-height: 50%;
+    }
 }
 .delta-page {
     position: absolute;
